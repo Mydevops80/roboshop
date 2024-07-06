@@ -1,2 +1,2 @@
-# roboshop
-this a robo-shop project
+# roboshop 
+I am learning Robo-Shop project
