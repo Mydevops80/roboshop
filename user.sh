@@ -1,4 +1,5 @@
-cp user.service /etc/systemd/system/user.serviceuseradd roboshop
+cp user.service /etc/systemd/system/user.service
+useradd roboshop
 dnf module disable nodejs -y
 dnf module enable nodejs:20 -y
 dnf install nodejs -y
