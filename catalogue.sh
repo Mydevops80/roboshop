@@ -15,5 +15,5 @@ systemctl daemon-reload
 systemctl enable catalogue
 dnf install mongodb-mongosh -y
 
-mongosh --host localhost </app/db/master-data.js
+mongosh --host mongodb.heydevops.online </app/db/master-data.js
 systemctl restart catalogue
